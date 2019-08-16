@@ -1,0 +1,38 @@
+---
+:source:
+  :path: test
+  :file: TestTaskScheduler.c
+:successes:
+- :test: testShouldScheduleUsartTaskAfter1000ms
+  :line: 14
+  :message: ''
+- :test: testShouldClearUsartDoFlagAfterReported
+  :line: 25
+  :message: ''
+- :test: testShouldScheduleUsartTaskEvery1000ms
+  :line: 33
+  :message: ''
+- :test: testShouldScheduleUsartTaskOnlyOncePerPeriod
+  :line: 47
+  :message: ''
+- :test: testShouldScheduleAdcTaskAfter100ms
+  :line: 60
+  :message: ''
+- :test: testShouldClearAdcDoFlagAfterReported
+  :line: 71
+  :message: ''
+- :test: testShouldScheduleAdcTaskEvery100ms
+  :line: 79
+  :message: ''
+- :test: testShouldScheduleAdcTaskOnlyOncePerPeriod
+  :line: 93
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 8
+  :passed: 8
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 3.491122599982191

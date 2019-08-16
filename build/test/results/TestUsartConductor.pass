@@ -1,0 +1,23 @@
+---
+:source:
+  :path: test
+  :file: TestUsartConductor.c
+:successes:
+- :test: testShouldInitializeHardwareWhenInitCalled
+  :line: 16
+  :message: ''
+- :test: testRunShouldNotDoAnythingIfSchedulerSaysItIsNotTimeYet
+  :line: 26
+  :message: ''
+- :test: testRunShouldGetCurrentTemperatureAndTransmitIfSchedulerSaysItIsTime
+  :line: 33
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 3
+  :passed: 3
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 3.6304216999851633

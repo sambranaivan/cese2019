@@ -1,0 +1,26 @@
+---
+:source:
+  :path: test
+  :file: TestUsartModel.c
+:successes:
+- :test: testGetBaudRateRegisterSettingShouldReturnAppropriateBaudRateRegisterSetting
+  :line: 17
+  :message: ''
+- :test: testGetFormattedTemperatureFormatsTemperatureFromCalculatorAppropriately
+  :line: 25
+  :message: ''
+- :test: testShouldReturnErrorMessageUponInvalidTemperatureValue
+  :line: 31
+  :message: ''
+- :test: testShouldReturnWakeupMessage
+  :line: 37
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 4
+  :passed: 4
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 3.4173945000220556
